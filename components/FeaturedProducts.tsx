@@ -1,43 +1,5 @@
 import ProductCard from "./ProductCard";
-
-const products = [
-  {
-    id: "amrapali",
-    name: "আম্রপালি",
-    price: 120,
-    image: "/mangoes/amrapali.jpg",
-  },
-  {
-    id: "langra",
-    name: "ল্যাংড়া",
-    price: 140,
-    image: "/mangoes/langra.jpg",
-  },
-  {
-    id: "fazli",
-    name: "ফজলি",
-    price: 100,
-    image: "/mangoes/fazli.jpg",
-  },
-  {
-    id: "himsagor",
-    name: "হিমসাগর",
-    price: 160,
-    image: "/mangoes/himsagor.jpg",
-  },
-  {
-    id: "bari4",
-    name: "বারি-৪",
-    price: 130,
-    image: "/mangoes/bari4.jpg",
-  },
-  {
-    id: "ashwina",
-    name: "আশ্বিনা",
-    price: 110,
-    image: "/mangoes/ashwina.jpg",
-  },
-];
+import { products } from "@/data/products";
 
 export default function FeaturedProducts() {
   return (
